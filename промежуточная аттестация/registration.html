@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>промежуточная аттестация1</title>
+	<link rel="stylesheet" href="registration.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<img class="img" src="img/iu_logo_rgb_1.png">
+			<p class="text">PCS Frontend</p>
+		</div>	
+		<div class="menu">
+			<a href="#" class="reg">Регистрация</a>
+			<a href="enter.html" class="ent">Вход</a>
+		</div>	
+	</header>
+	<main>
+		<div class="register-form-container">
+			<h1 class="form-title">Вход</h1>
+			<div class="form-fields">
+				<div class="form-field">
+					<label class="box-form__label" for="email">Email</label>
+					<input class="box-form__input" id="email" type="email" name="email" placeholder="Введите email"/>
+				</div>
+				<div class="form-field">
+					<label class="box-form__label" for="password">Пароль</label>
+					<input class="box-form__input" id="password" type="password" name="password" placeholder="Введите пароль"/>
+				</div>
+				<div class="form-field">
+					<label class="box-form__label" for="password2">Подтверждение пароля</label>
+					<input class="box-form__input" id="password2" type="password2" name="password2" placeholder="Подтвердите пароль"/>
+				</div>
+				<div class="form-form">
+					<label>Пол</label>
+				</div>
+				<div class="form-radio">
+					<input class="form-radio__input" id="radio-1" type="radio" name="gender" value="man">
+					<label class="form-radio__label" for="radio-1">Мужчина</label>
+				</div>
+				<div class="form-radio">
+					<input class="form-radio__input" id="radio-2" type="radio" name="gender" value="woman">
+					<label class="form-radio__label" for="radio-2">Женщина</label>
+				</div>
+				<div class="form-textarea">
+					<label class="form-textarea__label" for="textarea">О себе</label>
+					<textarea class="form-textarea__textarea" id="textarea" name="textarea" placeholder="Расскажите о себе"></textarea>
+				</div>
+				<div class="form-checkbox">
+					<input class="form-checkbox__input" id="agreement" type="checkbox" name="agreement"/>
+					<label for="agreement" class="form-checkbox__label">Я согласен получать обновления на почту</label>
+				</div>
+				<button class="form-button">Регистрация</button>
+			</div> 
+		</div>
+	</main>
+</body>
+</html>
